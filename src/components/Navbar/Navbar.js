@@ -9,6 +9,23 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import { styled } from '@mui/material';
 
+const SignButton=styled(Button)({
+  padding: '8px 23px',
+  backgroundColor: '#e63c83',
+  fontSize: 12,
+  fontWeight: 'bold',
+  borderRadius: '30px',
+  fontFamily: 'PT Serif, serif',
+  '&:hover': {
+    border: '1px solid',
+    backgroundColor: '#ffffff',
+    borderColor: '#e63c83',
+    color: '#e63c83',
+    transition: '1ms' 
+  },
+})
+
+
 const LogButton=styled(Button)({
   padding: '8px 23px',
   color: '#e63c83',
@@ -26,21 +43,7 @@ const LogButton=styled(Button)({
 })
 
 
-const SignButton=styled(Button)({
-  padding: '8px 23px',
-  backgroundColor: '#e63c83',
-  fontSize: 12,
-  fontWeight: 'bold',
-  borderRadius: '30px',
-  fontFamily: 'PT Serif, serif',
-  '&:hover': {
-    border: '1px solid',
-    backgroundColor: '#ffffff',
-    borderColor: '#e63c83',
-    color: '#e63c83',
-    transition: '1ms' 
-  },
-})
+
 
 
 const NavTab = styled(Tab)({

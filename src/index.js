@@ -8,6 +8,7 @@ import Gallery from './components/Gallery/gallery'
 import About from './components/About/About';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Events from './components/Events/Events';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ root.render(
     <Head />
     <About />
     <Gallery />
+    <Events />
     <App />
     
   </React.StrictMode>

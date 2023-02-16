@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container } from '@mui/material'
-import Box from '@mui/material/Box'
 import Hurdle from '../images/hurdle.jpg'
 import Playing from '../images/playing.jpg'
 import Sport from '../images/sport.jpg'
@@ -15,6 +14,7 @@ import Typography from '@mui/material/Typography'
 
 const Typo=styled(Typography)({
     marginTop:'100px',
+    marginBottom:'80px',
     fontSize: '30px',
     fontFamily: 'Berkshire Swash, cursive',
     color:'#black',

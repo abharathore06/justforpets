@@ -6,6 +6,7 @@ import '../About/About.css';
 
 const Typo=styled(Typography)({
     marginTop:'100px',
+    marginBottom:'80px',
     fontSize: '30px',
     fontFamily: 'Berkshire Swash, cursive',
     color:'#black',
